@@ -149,7 +149,7 @@ for i, country in enumerate(selected_countries):
             delta=growth,
             delta_color=delta_color
         )
-import streamlit as st
+
 import streamlit.components.v1 as components
 
 # Código de Google Analytics
@@ -160,10 +160,9 @@ ga_code = """
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-822VBMCM5K');
 </script>
 """
 
-# Inyectar el código de Analytics en la página
+# Inyectar el código en la aplicación
 components.html(ga_code, height=0)
