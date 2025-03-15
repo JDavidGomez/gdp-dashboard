@@ -162,6 +162,7 @@ ga_code = """
   gtag('js', new Date());
   gtag('config', 'G-822VBMCM5K');
 </script>
+<h1 style="color:blue; text-align:center;">Hola Mundo</h1>
 """
 
 # Inyectar el código en la aplicación
